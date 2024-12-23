@@ -1,0 +1,31 @@
+.header {
+    height: 80px;
+    padding: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.header h1 {
+    font-size: 48px;
+}
+
+.header a {
+    font-family: cursive;
+}
+
+.header img {
+    margin-right: 15px;
+    animation: spin 5s linear infinite;
+}
+
+.header .active {
+    pointer-events: none;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
