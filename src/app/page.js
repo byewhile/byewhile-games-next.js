@@ -15,16 +15,11 @@ export default function Home() {
       url: "/assembly",
       bg: "/assembly_bg.webp",
     },
-    // {
-    //   title: "Сообщения",
-    //   url: "/messages",
-    //   bg: "/messages_bg.webp",
-    // },
-    // {
-    //   title: "Чат",
-    //   url: "/chat",
-    //   bg: "/chat_bg.webp",
-    // }
+    {
+      title: "To-Do Лист",
+      url: "/to-do-list",
+      bg: "/to_do_list_bg.webp",
+    }
   ];
 
   return (
